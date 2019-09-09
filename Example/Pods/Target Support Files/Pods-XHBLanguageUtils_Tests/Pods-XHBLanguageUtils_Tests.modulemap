@@ -1,0 +1,6 @@
+framework module Pods_XHBLanguageUtils_Tests {
+  umbrella header "Pods-XHBLanguageUtils_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

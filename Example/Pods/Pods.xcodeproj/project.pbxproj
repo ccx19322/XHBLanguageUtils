@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13708822883BA0E479B91B63BD9FA0A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		54899DABEAB07806AF20A098F88BBB76 /* XHBLanguageUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 497C47AEE98A213B2EB51A4072CEAB16 /* XHBLanguageUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62F77BE9437C97EDE583F6466F26ACF0 /* Pods-XHBLanguageUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71DE9C9263EEFDBDF93D44A6184411AF /* Pods-XHBLanguageUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EEDE4E7526A1C1A925111FCE4B112D7 /* Pods-XHBLanguageUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1B4BB1F0982822AD87D94C1223B5E /* Pods-XHBLanguageUtils_Tests-dummy.m */; };
+		777C6D55409AFF1A2CACE0201C311062 /* Pods-XHBLanguageUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F107D53DF53535CDEE4AE882541DEF /* Pods-XHBLanguageUtils_Example-dummy.m */; };
+		9999404101709579FCF00DDD4C17F7DC /* XHBLanguageUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33299B1C7DA4542F5E9233CF65544903 /* XHBLanguageUtils-dummy.m */; };
+		DA6069C4097F7E733172CBD2FD4B0622 /* XHBLanguageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D2B18456C04DE7E2A89C7E30815F3F /* XHBLanguageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA89A9DD6E235EB05ACDE02CF017B19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E3FFF225E3825F24A7D5B55713912AC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EBC3A4F9BCB703205F96D7FE4F17A4D0 /* XHBLanguageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C47E1A58403C8B0629E77B0E7ADF5AD /* XHBLanguageUtils.m */; };
+		F6E2BB5A8011E8C6416BF1125476CDD5 /* Pods-XHBLanguageUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19AB566A388FD6FF546AC1B822759BDB /* Pods-XHBLanguageUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282FF5BDF51CC85556972144613085B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C508F2CAA9FDF9EC68DC7770D3345075;
+			remoteInfo = XHBLanguageUtils;
+		};
+		651AC341A26688DA9F54BD9721672E6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A1C41C8085D549861211E356332705B;
+			remoteInfo = "Pods-XHBLanguageUtils_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C47E1A58403C8B0629E77B0E7ADF5AD /* XHBLanguageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHBLanguageUtils.m; path = XHBLanguageUtils/Classes/XHBLanguageUtils.m; sourceTree = "<group>"; };
+		19AB566A388FD6FF546AC1B822759BDB /* Pods-XHBLanguageUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHBLanguageUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1BD712340B9BFBBCBA737403A1520313 /* Pods-XHBLanguageUtils_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHBLanguageUtils_Example-Info.plist"; sourceTree = "<group>"; };
+		2563FB2F755FEBD34E81345EF25C4110 /* Pods-XHBLanguageUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHBLanguageUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C35BD32203B29C41DA65DB75040DD1C /* Pods-XHBLanguageUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHBLanguageUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		33299B1C7DA4542F5E9233CF65544903 /* XHBLanguageUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHBLanguageUtils-dummy.m"; sourceTree = "<group>"; };
+		374D35CC79C6BB397F39D744F114CF1B /* XHBLanguageUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHBLanguageUtils.modulemap; sourceTree = "<group>"; };
+		3841931393D40C2173F0F409567881EC /* XHBLanguageUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHBLanguageUtils.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		393FB04FCF3BEC6C40AB0283B033A680 /* Pods-XHBLanguageUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHBLanguageUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3C9A99EA7DC010AA459E4EE9E43D3418 /* Pods-XHBLanguageUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHBLanguageUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41D2B18456C04DE7E2A89C7E30815F3F /* XHBLanguageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHBLanguageUtils.h; path = XHBLanguageUtils/Classes/XHBLanguageUtils.h; sourceTree = "<group>"; };
+		497C47AEE98A213B2EB51A4072CEAB16 /* XHBLanguageUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHBLanguageUtils-umbrella.h"; sourceTree = "<group>"; };
+		525A5975501B6F5E1C83D05208BF5593 /* Pods_XHBLanguageUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHBLanguageUtils_Tests.framework; path = "Pods-XHBLanguageUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		620EB06A607EE0C311F43CADF9A63E5F /* XHBLanguageUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHBLanguageUtils-Info.plist"; sourceTree = "<group>"; };
+		6629B89CDB75C509715C7BC1EC9F476A /* XHBLanguageUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHBLanguageUtils.framework; path = XHBLanguageUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		707C0FFC20E455A234E529130171ECC9 /* Pods-XHBLanguageUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHBLanguageUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		70E951D9082906C1B163307193DC416A /* Pods-XHBLanguageUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHBLanguageUtils_Example.modulemap"; sourceTree = "<group>"; };
+		71DE9C9263EEFDBDF93D44A6184411AF /* Pods-XHBLanguageUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHBLanguageUtils_Example-umbrella.h"; sourceTree = "<group>"; };
+		75F107D53DF53535CDEE4AE882541DEF /* Pods-XHBLanguageUtils_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHBLanguageUtils_Example-dummy.m"; sourceTree = "<group>"; };
+		7780E429D4A5B02E9F4656624FF93C1C /* Pods-XHBLanguageUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHBLanguageUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C83361B9795DC5F35700297F247704B /* Pods-XHBLanguageUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHBLanguageUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
+		94D1B4BB1F0982822AD87D94C1223B5E /* Pods-XHBLanguageUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHBLanguageUtils_Tests-dummy.m"; sourceTree = "<group>"; };
+		9A48172F9E69C4E138CC67BF731994E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8F3C26EF590EC96DF0CF37B37E8CEC2 /* XHBLanguageUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHBLanguageUtils.xcconfig; sourceTree = "<group>"; };
+		B36C623BC47EDD44127220746138DC7A /* Pods-XHBLanguageUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHBLanguageUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B6A3A079CA0BD1982E7F7D82E4B905DB /* Pods_XHBLanguageUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHBLanguageUtils_Example.framework; path = "Pods-XHBLanguageUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9DEDD67A1B27BAED670D8633BCB03F /* Pods-XHBLanguageUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHBLanguageUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BED368C96299282D8864D82618814E19 /* Pods-XHBLanguageUtils_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHBLanguageUtils_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE14E2D5FB2C01378CA4CB0D7AB1A8C7 /* XHBLanguageUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHBLanguageUtils-prefix.pch"; sourceTree = "<group>"; };
+		FDCA04DB841F1B95B4F6304737FACC89 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FF65819E4D3E85961879B66078D01097 /* Pods-XHBLanguageUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHBLanguageUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		490A285483838F32A9FC359D89B855D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA89A9DD6E235EB05ACDE02CF017B19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3C8B9431BDAF72A70FC1A0B002C73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FFF225E3825F24A7D5B55713912AC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7273D2A978A7F1C7286250607940B409 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13708822883BA0E479B91B63BD9FA0A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28937CDA1D16D212D135AEC318AD6573 /* Pods-XHBLanguageUtils_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70E951D9082906C1B163307193DC416A /* Pods-XHBLanguageUtils_Example.modulemap */,
+				B36C623BC47EDD44127220746138DC7A /* Pods-XHBLanguageUtils_Example-acknowledgements.markdown */,
+				7780E429D4A5B02E9F4656624FF93C1C /* Pods-XHBLanguageUtils_Example-acknowledgements.plist */,
+				75F107D53DF53535CDEE4AE882541DEF /* Pods-XHBLanguageUtils_Example-dummy.m */,
+				7C83361B9795DC5F35700297F247704B /* Pods-XHBLanguageUtils_Example-frameworks.sh */,
+				1BD712340B9BFBBCBA737403A1520313 /* Pods-XHBLanguageUtils_Example-Info.plist */,
+				71DE9C9263EEFDBDF93D44A6184411AF /* Pods-XHBLanguageUtils_Example-umbrella.h */,
+				FF65819E4D3E85961879B66078D01097 /* Pods-XHBLanguageUtils_Example.debug.xcconfig */,
+				393FB04FCF3BEC6C40AB0283B033A680 /* Pods-XHBLanguageUtils_Example.release.xcconfig */,
+			);
+			name = "Pods-XHBLanguageUtils_Example";
+			path = "Target Support Files/Pods-XHBLanguageUtils_Example";
+			sourceTree = "<group>";
+		};
+		5C00377E103A72972652CD6BAE91C060 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9A48172F9E69C4E138CC67BF731994E2 /* LICENSE */,
+				FDCA04DB841F1B95B4F6304737FACC89 /* README.md */,
+				3841931393D40C2173F0F409567881EC /* XHBLanguageUtils.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5F5263D6A905B32A8E73DBA8406FCB48 /* XHBLanguageUtils */ = {
+			isa = PBXGroup;
+			children = (
+				41D2B18456C04DE7E2A89C7E30815F3F /* XHBLanguageUtils.h */,
+				0C47E1A58403C8B0629E77B0E7ADF5AD /* XHBLanguageUtils.m */,
+				5C00377E103A72972652CD6BAE91C060 /* Pod */,
+				61021AAC0FC0C3DE1FA10ED1B6FEF629 /* Support Files */,
+			);
+			name = XHBLanguageUtils;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61021AAC0FC0C3DE1FA10ED1B6FEF629 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				374D35CC79C6BB397F39D744F114CF1B /* XHBLanguageUtils.modulemap */,
+				A8F3C26EF590EC96DF0CF37B37E8CEC2 /* XHBLanguageUtils.xcconfig */,
+				33299B1C7DA4542F5E9233CF65544903 /* XHBLanguageUtils-dummy.m */,
+				620EB06A607EE0C311F43CADF9A63E5F /* XHBLanguageUtils-Info.plist */,
+				EE14E2D5FB2C01378CA4CB0D7AB1A8C7 /* XHBLanguageUtils-prefix.pch */,
+				497C47AEE98A213B2EB51A4072CEAB16 /* XHBLanguageUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XHBLanguageUtils";
+			sourceTree = "<group>";
+		};
+		706C72F55ABE0ADF60D2A258F4BC7045 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				28937CDA1D16D212D135AEC318AD6573 /* Pods-XHBLanguageUtils_Example */,
+				D304D4A3654008D9949BF726742CE6AF /* Pods-XHBLanguageUtils_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		850DA91F1834DCFA2058A09038FEEAD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3A079CA0BD1982E7F7D82E4B905DB /* Pods_XHBLanguageUtils_Example.framework */,
+				525A5975501B6F5E1C83D05208BF5593 /* Pods_XHBLanguageUtils_Tests.framework */,
+				6629B89CDB75C509715C7BC1EC9F476A /* XHBLanguageUtils.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B0C88A7989F83BB4C3AAAE3A683F3E56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5263D6A905B32A8E73DBA8406FCB48 /* XHBLanguageUtils */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B0C88A7989F83BB4C3AAAE3A683F3E56 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				850DA91F1834DCFA2058A09038FEEAD8 /* Products */,
+				706C72F55ABE0ADF60D2A258F4BC7045 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D304D4A3654008D9949BF726742CE6AF /* Pods-XHBLanguageUtils_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				707C0FFC20E455A234E529130171ECC9 /* Pods-XHBLanguageUtils_Tests.modulemap */,
+				BC9DEDD67A1B27BAED670D8633BCB03F /* Pods-XHBLanguageUtils_Tests-acknowledgements.markdown */,
+				2563FB2F755FEBD34E81345EF25C4110 /* Pods-XHBLanguageUtils_Tests-acknowledgements.plist */,
+				94D1B4BB1F0982822AD87D94C1223B5E /* Pods-XHBLanguageUtils_Tests-dummy.m */,
+				BED368C96299282D8864D82618814E19 /* Pods-XHBLanguageUtils_Tests-Info.plist */,
+				19AB566A388FD6FF546AC1B822759BDB /* Pods-XHBLanguageUtils_Tests-umbrella.h */,
+				3C9A99EA7DC010AA459E4EE9E43D3418 /* Pods-XHBLanguageUtils_Tests.debug.xcconfig */,
+				2C35BD32203B29C41DA65DB75040DD1C /* Pods-XHBLanguageUtils_Tests.release.xcconfig */,
+			);
+			name = "Pods-XHBLanguageUtils_Tests";
+			path = "Target Support Files/Pods-XHBLanguageUtils_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AB2AE3A061E5DD4CE92F13B702CDF21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54899DABEAB07806AF20A098F88BBB76 /* XHBLanguageUtils-umbrella.h in Headers */,
+				DA6069C4097F7E733172CBD2FD4B0622 /* XHBLanguageUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CC51F81D6F992EAFEFE0B308FE6016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E2BB5A8011E8C6416BF1125476CDD5 /* Pods-XHBLanguageUtils_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E66DBE71D3B1255C1804CA222B8741 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F77BE9437C97EDE583F6466F26ACF0 /* Pods-XHBLanguageUtils_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		121899003203571383CEC41C636A7E7B /* Pods-XHBLanguageUtils_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44374B71A6959BE5C235C77EFAC71F2D /* Build configuration list for PBXNativeTarget "Pods-XHBLanguageUtils_Tests" */;
+			buildPhases = (
+				B1CC51F81D6F992EAFEFE0B308FE6016 /* Headers */,
+				3F6C123A44841180C7734A0DD025A079 /* Sources */,
+				7273D2A978A7F1C7286250607940B409 /* Frameworks */,
+				06E8287EFC19D12DA7A1CD3978CD2550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F5CF66C172BF864D2A82F172F903AA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-XHBLanguageUtils_Tests";
+			productName = "Pods-XHBLanguageUtils_Tests";
+			productReference = 525A5975501B6F5E1C83D05208BF5593 /* Pods_XHBLanguageUtils_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A1C41C8085D549861211E356332705B /* Pods-XHBLanguageUtils_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 894E21D10944D1276D9F77D3E8A658B2 /* Build configuration list for PBXNativeTarget "Pods-XHBLanguageUtils_Example" */;
+			buildPhases = (
+				F5E66DBE71D3B1255C1804CA222B8741 /* Headers */,
+				91C2088E2558FDD03D8B5E17BCE03534 /* Sources */,
+				6A3C8B9431BDAF72A70FC1A0B002C73D /* Frameworks */,
+				C3131F913B219B72E990EA3CCE7ADDBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60CFBD21AC40154DCEE6F2E7B52F0357 /* PBXTargetDependency */,
+			);
+			name = "Pods-XHBLanguageUtils_Example";
+			productName = "Pods-XHBLanguageUtils_Example";
+			productReference = B6A3A079CA0BD1982E7F7D82E4B905DB /* Pods_XHBLanguageUtils_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C508F2CAA9FDF9EC68DC7770D3345075 /* XHBLanguageUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B231CF5D5862A837FD8F7DD62839E31 /* Build configuration list for PBXNativeTarget "XHBLanguageUtils" */;
+			buildPhases = (
+				4AB2AE3A061E5DD4CE92F13B702CDF21 /* Headers */,
+				3382A8137EED920A052A229BC50062CA /* Sources */,
+				490A285483838F32A9FC359D89B855D0 /* Frameworks */,
+				93C3012C04B29AFB24A40239B9AC9F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHBLanguageUtils;
+			productName = XHBLanguageUtils;
+			productReference = 6629B89CDB75C509715C7BC1EC9F476A /* XHBLanguageUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 850DA91F1834DCFA2058A09038FEEAD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1C41C8085D549861211E356332705B /* Pods-XHBLanguageUtils_Example */,
+				121899003203571383CEC41C636A7E7B /* Pods-XHBLanguageUtils_Tests */,
+				C508F2CAA9FDF9EC68DC7770D3345075 /* XHBLanguageUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06E8287EFC19D12DA7A1CD3978CD2550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C3012C04B29AFB24A40239B9AC9F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3131F913B219B72E990EA3CCE7ADDBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3382A8137EED920A052A229BC50062CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9999404101709579FCF00DDD4C17F7DC /* XHBLanguageUtils-dummy.m in Sources */,
+				EBC3A4F9BCB703205F96D7FE4F17A4D0 /* XHBLanguageUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F6C123A44841180C7734A0DD025A079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEDE4E7526A1C1A925111FCE4B112D7 /* Pods-XHBLanguageUtils_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C2088E2558FDD03D8B5E17BCE03534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777C6D55409AFF1A2CACE0201C311062 /* Pods-XHBLanguageUtils_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F5CF66C172BF864D2A82F172F903AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XHBLanguageUtils_Example";
+			target = 1A1C41C8085D549861211E356332705B /* Pods-XHBLanguageUtils_Example */;
+			targetProxy = 651AC341A26688DA9F54BD9721672E6A /* PBXContainerItemProxy */;
+		};
+		60CFBD21AC40154DCEE6F2E7B52F0357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XHBLanguageUtils;
+			target = C508F2CAA9FDF9EC68DC7770D3345075 /* XHBLanguageUtils */;
+			targetProxy = 282FF5BDF51CC85556972144613085B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0971DCA80470752B1465EA0605C159D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393FB04FCF3BEC6C40AB0283B033A680 /* Pods-XHBLanguageUtils_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		148562BE4531E25A5A945E365F596F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F3C26EF590EC96DF0CF37B37E8CEC2 /* XHBLanguageUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils.modulemap";
+				PRODUCT_MODULE_NAME = XHBLanguageUtils;
+				PRODUCT_NAME = XHBLanguageUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5442CA0B19ACED6C8D5F6ABB156BB690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF65819E4D3E85961879B66078D01097 /* Pods-XHBLanguageUtils_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59CE038E90A07BFBDB8D4E0151972544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C35BD32203B29C41DA65DB75040DD1C /* Pods-XHBLanguageUtils_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XHBLanguageUtils_Tests/Pods-XHBLanguageUtils_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XHBLanguageUtils_Tests/Pods-XHBLanguageUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD0E7EA4EC8CBD19CCD2E59E3015D852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9A99EA7DC010AA459E4EE9E43D3418 /* Pods-XHBLanguageUtils_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XHBLanguageUtils_Tests/Pods-XHBLanguageUtils_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XHBLanguageUtils_Tests/Pods-XHBLanguageUtils_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D02384E0040C3C9CE7A0650ABB5EB1F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F3C26EF590EC96DF0CF37B37E8CEC2 /* XHBLanguageUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XHBLanguageUtils/XHBLanguageUtils.modulemap";
+				PRODUCT_MODULE_NAME = XHBLanguageUtils;
+				PRODUCT_NAME = XHBLanguageUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44374B71A6959BE5C235C77EFAC71F2D /* Build configuration list for PBXNativeTarget "Pods-XHBLanguageUtils_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0E7EA4EC8CBD19CCD2E59E3015D852 /* Debug */,
+				59CE038E90A07BFBDB8D4E0151972544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B231CF5D5862A837FD8F7DD62839E31 /* Build configuration list for PBXNativeTarget "XHBLanguageUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148562BE4531E25A5A945E365F596F77 /* Debug */,
+				D02384E0040C3C9CE7A0650ABB5EB1F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894E21D10944D1276D9F77D3E8A658B2 /* Build configuration list for PBXNativeTarget "Pods-XHBLanguageUtils_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5442CA0B19ACED6C8D5F6ABB156BB690 /* Debug */,
+				0971DCA80470752B1465EA0605C159D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - XHBLanguageUtils (0.1.0)
+
+DEPENDENCIES:
+  - XHBLanguageUtils (from `../`)
+
+EXTERNAL SOURCES:
+  XHBLanguageUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHBLanguageUtils: a784da94b3630c442807ef5e00895b29e66c0fb9
+
+PODFILE CHECKSUM: ada37418017db9548c6d474efab49b0bac1e9e3f
+
+COCOAPODS: 1.6.1

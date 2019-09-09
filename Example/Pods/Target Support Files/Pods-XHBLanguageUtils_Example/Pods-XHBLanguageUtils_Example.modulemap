@@ -1,0 +1,6 @@
+framework module Pods_XHBLanguageUtils_Example {
+  umbrella header "Pods-XHBLanguageUtils_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

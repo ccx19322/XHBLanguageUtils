@@ -1,0 +1,6 @@
+framework module XHBLanguageUtils {
+  umbrella header "XHBLanguageUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}
