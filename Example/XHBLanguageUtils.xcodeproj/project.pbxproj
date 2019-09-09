@@ -61,10 +61,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		746211C74F0FE349D9F6E2E4 /* Pods-XHBLanguageUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBLanguageUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A422B31BF4AE602641C12DFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AF1ECBB259DF78B24922D9C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A422B31BF4AE602641C12DFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF1ECBB259DF78B24922D9C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C1BCF65A26A6D8D88C70BDAD /* Pods-XHBLanguageUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBLanguageUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XHBLanguageUtils_Tests/Pods-XHBLanguageUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D301CF8FB17ABC2BF494B5E4 /* XHBLanguageUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XHBLanguageUtils.podspec; path = ../XHBLanguageUtils.podspec; sourceTree = "<group>"; };
+		D301CF8FB17ABC2BF494B5E4 /* XHBLanguageUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XHBLanguageUtils.podspec; path = ../XHBLanguageUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FFBFCB0B7CF1C9C780B5B569 /* Pods_XHBLanguageUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHBLanguageUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC4855C310E9DB4B5871825 /* Pods-XHBLanguageUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XHBLanguageUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-XHBLanguageUtils_Example/Pods-XHBLanguageUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				C1BCF65A26A6D8D88C70BDAD /* Pods-XHBLanguageUtils_Tests.debug.xcconfig */,
 				1F9B80019AE5D4629FA297B5 /* Pods-XHBLanguageUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
